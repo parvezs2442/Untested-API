@@ -1,8 +1,24 @@
-# Untested API
+# 📦 Untested API
 
-APIs:
-- /package/health/:name/:version
-- /package/releases/:name
+A backend API that fetches package data from NPM and vulnerability data from OSV.
 
-Tech:
-Node.js, Express, Axios
+## 🚀 Endpoints
+
+### 🔑 Health
+
+GET /package/health/:name/:version
+
+### 📦 Releases
+
+GET /package/releases/:name
+
+## ⚙️ Tech Stack
+
+* Node.js
+* Express
+* Axios
+
+## ▶️ Run
+
+npm install
+npm run dev
